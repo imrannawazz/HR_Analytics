@@ -41,18 +41,16 @@ identification of patterns or trends that might not be obvious when considering 
 
 ### Analysis and Insights
 
-1. **Department Wise Attrition**
+### 1. Department Wise Attrition
 
    #### Observations
 
    ![alt text](https://github.com/user-attachments/assets/9d858754-0bd3-473a-b062-f28a45b7ae37)
 
 
-
-
-     - The Sales department has the highest attrition rate, followed closely by the HR department.<br>
-     - The Operations department experiences the lowest attrition rate. <br>
-     - The Finance department, despite having a substantial number of employees, also faces a significant attrition rate. <br>
+ - The Sales department has the highest attrition rate, followed closely by the HR department.<br>
+ - The Operations department experiences the lowest attrition rate. <br>
+ - The Finance department, despite having a substantial number of employees, also faces a significant attrition rate. <br>
 
 
   #### Possible Reasons behind attrition
@@ -74,5 +72,8 @@ identification of patterns or trends that might not be obvious when considering 
     - Significant Attrition Rate: Despite having a large workforce, the Finance department faces notable attrition. This could be due to the high-stress environment, long working hours, and the critical nature of 
      financial tasks. Additionally, finance professionals often have transferable skills that are in demand, making it easier for them to find new opportunities
 
+### 2. Position Wise Attrition
+
+![alt_text][image](https://github.com/user-attachments/assets/1372415e-331d-4ea5-8b53-e3954524e7f1)
 
 
