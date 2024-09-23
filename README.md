@@ -1,10 +1,10 @@
 # HR Analytics
 
-### Overview
+## Overview
 
 This report seeks to deliver comprehensive insights into two critical facets of human resource management: employee attrition and training program effectiveness. The analysis leverages a robust dataset encompassing various HR metrics, including but not limited to age, department, performance ratings, tenure, and job satisfaction levels. By examining these dimensions, the report aims to uncover patterns and correlations that can inform strategic HR decisions and improve overall organizational performance.
 
-### Objectives
+## Objectives
 The project is centered around two primary objectives:
 
 1.	**Identify Factors Influencing Employee Attrition**:
@@ -13,7 +13,7 @@ To pinpoint the key factors contributing to employee attrition and provide actio
 2.	**Evaluate Training Program Effectiveness**:
 To assess the effectiveness of current training programs and recommend targeted improvements. This includes examining metrics like employee performance post-training, skill acquisition, training satisfaction, and the impact on overall productivity and employee engagement.
 
-### Data Cleaning and Preparation
+## Data Cleaning and Preparation
 The initial dataset contained several missing values and discrepancies. Data cleaning involved:
 
 1. For the Gender & Position column, the values were updated to a more concise format for easier handling in future analyses. Specifically, the transformations were:
@@ -39,13 +39,13 @@ identification of patterns or trends that might not be obvious when considering 
 
 3. Converting the Last Promotion Date to a standard date format.
 
-### Analysis and Insights
+## Analysis and Insights
 
 ### 1. Department Wise Attrition
 
    #### Observations
 
-   ![alt text](https://github.com/user-attachments/assets/9d858754-0bd3-473a-b062-f28a45b7ae37)
+  ![Alt text](https://pasteboard.co/T7uLA5lCNO2V.png)
 
 
  - The Sales department has the highest attrition rate, followed closely by the HR department.<br>
