@@ -18,9 +18,7 @@ The initial dataset contained several missing values and discrepancies. Data cle
 ### Employee Attrition Analysis
 
 #### Department Wise Attrition
-![Department Wise Attrition sorted by Total Employees](https://www.bing.com/images/blob?bcid=S7RLxZ14ipAHuhcxoNWLuD9SqbotqVT.PTw)
-![Department Wise Attrition sorted by Attrition](https://www.bing.com/images/blob?bcid=S9fSeC0345AHuhcxoNWLuD9SqbotqVT.PaY)
-![Department Wise Attrition sorted by Attrition Yes Percentage](https://www.bing.com/images/blob?bcid=SyySoNDPfpAHuhcxoNWLuD9SqbotqVT.PUE)
+
 
 **Observations:**
 - **Sales Department**: High attrition due to high-pressure targets and performance expectations.
@@ -33,7 +31,7 @@ The initial dataset contained several missing values and discrepancies. Data cle
 - Enhance career development opportunities to retain employees.
 
 #### Position Wise Attrition
-![Position Wise Attrition](https://www.bing.com/images/blob?bcid=S5aEbTHJ1JAHuhcxoNWLuD9SqbotqVT.PaY)
+
 
 **Observations:**
 - **SD 1 Role**: High attrition due to lack of career progression opportunities.
@@ -111,10 +109,8 @@ The initial dataset contained several missing values and discrepancies. Data cle
 6. **Recognition Programs**: Establish recognition programs to celebrate achievements and contributions.
 7. **Inclusive Culture**: Foster an inclusive culture where every employee feels valued and included.
 
-## Visualizations
-- [Department Wise Attrition sorted by Total Employees](https://www.bing.com/images/blob?bcid=S7RLxZ14ipAHuhcxoNWLuD9SqbotqVT.PTw)
-- [Department Wise Attrition sorted by Attrition](https://www.bing.com/images/blob?bcid=S9fSeC0345AHuhcxoNWLuD9SqbotqVT.PaY)
-- [Department Wise Attrition sorted by Attrition Yes Percentage](https://www.bing.com/images/blob?bcid=SyySoNDPfpAHuhcxoNWLuD9SqbotqVT.PUE)
+
+
 
 ## Conclusion
 By addressing the identified factors influencing employee attrition and continuously evaluating training program effectiveness, the organization can improve employee retention and overall performance.
