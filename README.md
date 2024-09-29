@@ -1,107 +1,59 @@
-# HR Analytics
+# SQL Project: Employee Attrition and Training Program Effectiveness
 
-## Overview
-
-This report seeks to deliver comprehensive insights into two critical facets of human resource management: employee attrition and training program effectiveness. The analysis leverages a robust dataset encompassing various HR metrics, including but not limited to age, department, performance ratings, tenure, and job satisfaction levels. By examining these dimensions, the report aims to uncover patterns and correlations that can inform strategic HR decisions and improve overall organizational performance.
+## Introduction
+This project delivers comprehensive insights into two critical facets of human resource management: **employee attrition** and **training program effectiveness**. Leveraging a robust dataset encompassing various HR metrics, the analysis aims to uncover patterns and correlations that can inform strategic HR decisions and improve overall organizational performance.
 
 ## Objectives
-The project is centered around two primary objectives:
-
-1.	**Identify Factors Influencing Employee Attrition**:
-To pinpoint the key factors contributing to employee attrition and provide actionable insights aimed at reducing attrition rates. This involves analyzing variables such as job satisfaction, work-life balance, compensation, career development opportunities, and organizational culture.
-
-2.	**Evaluate Training Program Effectiveness**:
-To assess the effectiveness of current training programs and recommend targeted improvements. This includes examining metrics like employee performance post-training, skill acquisition, training satisfaction, and the impact on overall productivity and employee engagement.
+1. **Identify Factors Influencing Employee Attrition**: Pinpoint key factors contributing to employee attrition and provide actionable insights to reduce attrition rates.
+2. **Evaluate Training Program Effectiveness**: Assess the effectiveness of current training programs and recommend targeted improvements.
 
 ## Data Cleaning and Preparation
 The initial dataset contained several missing values and discrepancies. Data cleaning involved:
-
-1. For the Gender & Position column, the values were updated to a more concise format for easier handling in future analyses. Specifically, the transformations were:
-
-     - 'Female' was replaced with 'F'
-     - 'Male' was replaced with 'M
-     - 'DataScientist' was replaced with 'Data Scientist'
-    - 'Marketinganalyst' was replaced with 'Marketing Analyst'
-
-2. For the purpose of more detailed analysis, the Age and Salary columns were categorized into different groups. These categorizations were designed to facilitate subgroup analyses, enabling the
-identification of patterns or trends that might not be obvious when considering the entire data set.
-
-      - Age Categories: <br>
-              i. Less than or equal to 30 years <br>
-             ii. Greater than 30 years <br>
-    
-      - Salary Categories <br>
-              i. 50K - 60K <br>
-             ii. 60K - 70K <br>
-            iii. 70K - 80K <br>
-             iv. 80K - 90K <br>
-              v. 90K - 100K <br>
-
-3. Converting the Last Promotion Date to a standard date format.
+1. **Updating Values**: Gender & Position columns were updated for easier handling.
+2. **Categorizing Columns**: Age and Salary columns were categorized for detailed analysis.
+3. **Standardizing Dates**: Last Promotion Date was converted to a standard date format.
 
 ## Analysis and Insights
 
-### 1. Department Wise Attrition
+### Employee Attrition Analysis
+#### Department Wise Attrition
+- **Sales**: Highest attrition rate due to high-pressure targets and performance expectations.
+- **HR**: High attrition due to the demanding nature of roles.
+- **Operations**: Lowest attrition rate due to stable and routine tasks.
+- **Finance**: Significant attrition despite a large workforce.
 
-   #### Observations
+![Department Wise Attrition](https://www.bing.com/images/blob?bcid=S1Y5woyxr5AHuhcxoNWLuD9SqbotqVT.Pb4)
 
-  ![Alt text](https://pasteboard.co/T7uLA5lCNO2V.png)
+#### Position Wise Attrition
+- **SD 1**: Highest attrition rate at 83%.
+- **Account Executives**: High attrition due to high-pressure environments.
+- **Marketing Coordinators**: Significant attrition volume.
+- **HR Coordinators and HR Managers**: Consistent attrition rates indicating systemic issues.
 
+![Position Wise Attrition](https://www.bing.com/images/blob?bcid=S5i17Yn35JAHuhcxoNWLuD9SqbotqVT.PdA)
 
- - The Sales department has the highest attrition rate, followed closely by the HR department.<br>
- - The Operations department experiences the lowest attrition rate. <br>
- - The Finance department, despite having a substantial number of employees, also faces a significant attrition rate. <br>
+#### Performance Rating Wise Attrition
+- Employees with performance ratings of 4 and 5 have the highest attrition rates.
 
+![Performance Rating Wise Attrition](https://www.bing.com/images/blob?bcid=SwLz61Jl75AHuhcxoNWLuD9SqbotqVT.PYQ)
 
-  #### Possible Reasons Behind Attrition
-   
-   
-   - **Sales Department**:<br>
-      High Attrition Rate: Sales roles often come with high-pressure targets and performance expectations, which can lead to burnout and turnover. Additionally, sales positions may offer more opportunities 
-      elsewhere, prompting employees to switch jobs frequently.
+#### Years of Service Wise Attrition
+- Highest attrition among employees with 1 year of service.
+- Attrition decreases after the first year but increases again after 4 years.
+- Zero attrition after 5 years of service.
 
-   - **HR Department**: <br>
-      High Attrition Rate: HR professionals might experience high turnover due to the demanding nature of their roles, which often involve managing employee relations, recruitment, and compliance. The stress 
-      associated with these responsibilities can contribute to higher attrition.
+![Years of Service Wise Attrition](https://www.bing.com/images/blob?bcid=S1sKO8NekpAHuhcxoNWLuD9SqbotqVT.PZQ)
 
-  - **Operations Department**: <br>
-    Low Attrition Rate: Operations roles typically involve more stable and routine tasks, which might lead to higher job satisfaction and lower turnover. Employees in operations may also have fewer external job 
-      opportunities compared to sales or HR.
+#### Salary Range Wise Attrition
+- Highest attrition observed in the 20L-30L salary range due to stagnant growth and lack of promotion opportunities.
 
-  - **Finance Department**: <br>
-    Significant Attrition Rate: Despite having a large workforce, the Finance department faces notable attrition. This could be due to the high-stress environment, long working hours, and the critical nature of 
-     financial tasks. Additionally, finance professionals often have transferable skills that are in demand, making it easier for them to find new opportunities
+!Salary Range Wise Attrition
 
-### 2. Position Wise Attrition
-
-#### Observations
-
-![image](https://github.com/user-attachments/assets/dd1d3302-b40a-4ac2-b882-4bf767cb3d7e)
-
-- The highest attrition percentage is in the SD 1 role at 83%, followed by Account Executives at 68%.
-- Marketing Coordinators have an attrition rate of 53%. Due to the high number of employees in this role, the overall attrition volume is significant.
-- HR Coordinators and HR Managers have similar attrition percentages, indicating a consistent attrition rate across these roles that needs to be addressed.
-- SD 1 has a higher attrition percentage than SD 2, which might suggest that SD 1 employees tend to leave if they are not promoted.
-
- #### Possible Reasons Behind Attrition
-
-- SD 1 Role:<br>
-High Attrition Rate: The SD 1 role has the highest attrition rate, which could be due to a lack of career progression opportunities. If employees in this role do not see a clear path for promotion, they may seek opportunities elsewhere.
-
-- Account Executives: <br>
-High Attrition Rate: Account Executives often face high-pressure environments with demanding targets, leading to burnout and higher turnover rates.
-
-- Marketing Coordinators:<br>
-Significant Attrition Volume: Although the attrition rate is 53%, the large number of employees in this role means that the total number of employees leaving is substantial. This could impact the overall stability and performance of the marketing team.
-
-- HR Coordinators and HR Managers:<br>
-Consistent Attrition Rate: The similar attrition rates for HR Coordinators and HR Managers suggest a systemic issue within the HR department. This consistency indicates that the factors driving attrition are pervasive and need to be addressed at all levels.
-
-- SD 1 vs. SD 2: <br>
-Promotion and Retention: The higher attrition rate for SD 1 compared to SD 2 might indicate that SD 1 employees are more likely to leave if they do not receive promotions. This suggests a need for better career development and advancement opportunities for SD 1 employees to improve retention.
-
-
-
-
-
-
+## Recommendations
+1. **Improve Onboarding**: Enhance the onboarding process to ensure new hires have a clear understanding of their roles and the company culture.
+2. **Career Development**: Provide clear career paths and development opportunities to keep employees engaged and motivated.
+3. **Retention Strategies**: Implement strategies focused on employees in their first year and those approaching the 4-year mark.
+4. **Employee Engagement**: Enhance engagement to foster a sense of belonging by creating a supportive work environment, recognizing contributions, and providing professional development opportunities.
+5. **Regular Feedback**: Implement regular feedback mechanisms to understand and address employee concerns promptly.
+6. **Recognition Programs**: Establish programs to celebrate achievements and contributions.
+7. **Inclusive Culture**: Foster an inclusive culture where every employee feels valued and included.
